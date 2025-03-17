@@ -117,9 +117,9 @@ export default function TestimonialsSection() {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold text-lg">{testimonial.name}</h3>
-                  <p className="text-gray-400 text-sm">
+                  {/* <p className="text-gray-400 text-sm">
                     {testimonial.role} at {testimonial.company}
-                  </p>
+                  </p> */}
                   <div className="flex mt-1">
                     {Array.from({ length: testimonial.stars }).map((_, i) => (
                       <Star key={i} className="h-4 w-4 text-yellow-400 fill-yellow-400" />
